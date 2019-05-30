@@ -57,9 +57,9 @@ class Report extends Component {
           </Nav.Item>)
         }
         </Nav>
-        <div className="create-form">
+        {/* <div className="create-form">
           <a href="/create"> CRIAR FORMULARIO </a>
-        </div>
+        </div> */}
       </header>
 
       <Card style={{ width: '100%',alignItems:'center' }}>
