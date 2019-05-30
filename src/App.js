@@ -93,6 +93,7 @@ class App extends Component {
                 form === nome ? <Nav.Link key={nome} 
                       className={`form-selected active`}
                 href={`/report/${nome}`}>
+
                 Gerar REPORT: {nome} </Nav.Link>:
                 <Nav.Link key={nome} className={`form`}href={`/${nome}`}>{nome} </Nav.Link>
               }
@@ -102,9 +103,9 @@ class App extends Component {
             )
         }
         </Nav>
-        <div className="create-form">
+        {/* <div className="create-form">
           <a href="/create"> CRIAR FORMULARIO </a>
-        </div>
+        </div> */}
       </header>
       {perguntas ? <Form onSubmit={this.handleSubmit}>
         <div className="title">
